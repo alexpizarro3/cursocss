@@ -14,6 +14,18 @@ div p{ /*Se le da el formato a un div que contenga p*/
     color: aquamarine;
 }
 
+article.texto{
+    color: blue;
+}
+article.texto1{
+    color: pink;
+}
+
+.text{
+    font-family: "Poppins" , 'Courier New', Courier, monospace;
+
+}
+
 div h2, div h3{ /*Se le da el formato a un div que contenga h2 y h3*/
     color: brown;
 }
@@ -38,8 +50,38 @@ div h2, div h3{ /*Se le da el formato a un div que contenga h2 y h3*/
     background-size:cover;
 }
 
-#margin{
+#margin{ /*Propiedades que se le asignan a un ID margin*/
     background-color: brown;
-    margin: 15px 20px 20px 60px;
+    margin: 15px;
+    overflow: scroll;
+    width: 200px;
+    height: 50px;
+    outline: 1px solid red;
 }
+
+.texto{ /*propiedades que se le asignan a una clase texto*/
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+    color: blueviolet;
+    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link{
+    color: chocolate;
+    outline: 1px solid darkorange;
+}
+
+a:visited{
+    color: burlywood;
+}
+
+a:hover{
+    color: darkmagenta;
+}
+
+a:active{
+    color: chartreuse;
+}
+
 
