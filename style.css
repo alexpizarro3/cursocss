@@ -67,20 +67,20 @@ div h2, div h3{ /*Se le da el formato a un div que contenga h2 y h3*/
     font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a:link{
+a:link{ /*el orden para formato a links es este*/
     color: chocolate;
     outline: 1px solid darkorange;
 }
 
-a:visited{
+a:visited{ /*Si ya ha sido visitado se activa el estilo*/
     color: burlywood;
 }
 
-a:hover{
+a:hover{ /*Se activa el estilo al pasar el mouse*/ 
     color: darkmagenta;
 }
 
-a:active{
+a:active{ /*Se activa el estilo al dar click*/
     color: chartreuse;
 }
 
