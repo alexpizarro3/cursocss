@@ -69,6 +69,7 @@ div h2, div h3{ /*Se le da el formato a un div que contenga h2 y h3*/
 
 a:link{ /*el orden para formato a links es este*/
     color: chocolate;
+    border-radius: 5px;  /*redondea el link*/
     outline: 1px solid darkorange;
 }
 
@@ -78,10 +79,49 @@ a:visited{ /*Si ya ha sido visitado se activa el estilo*/
 
 a:hover{ /*Se activa el estilo al pasar el mouse*/ 
     color: darkmagenta;
+    background-color: pink;
+    
 }
 
 a:active{ /*Se activa el estilo al dar click*/
     color: chartreuse;
+}
+
+ul{
+    color: brown;
+    list-style-type: lower-greek;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 1px red;
+    padding: 5px;
+}
+
+th{
+    background-color: coral;
+    color: aliceblue;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: lightsteelblue;
+}
+
+td:hover{
+    background-color: grey;
+    color: white;
+}
+
+.centrar{
+    text-align: center;
+    background-color: aqua;
+    width: 300px;
+    margin: 0 auto;
 }
 
 
